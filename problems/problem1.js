@@ -7,7 +7,7 @@ function problem1(arrayOfObjects ){
     //console.log(arrayOfObjects )
     let emails = [];
     for(let i=0;i<arrayOfObjects.length;i++){
-        //console.log(personData[0])
+        
         emails.push(arrayOfObjects [i].email)
         //console.log(emails)
     }
