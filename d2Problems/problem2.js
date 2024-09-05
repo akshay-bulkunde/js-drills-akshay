@@ -3,12 +3,12 @@
 const users   = require('../users.js')
 //console.log(users )
 
-function problem2(users){
+function problem2(users , country){
     //console.log(users)
     const Germans = {};
 
     for (const user in users) {
-        if(users[user].nationality === "Germany") {
+        if(users[user].nationality === country) {
             Germans[user] = users[user];
             //console.log(Germans)
         }
