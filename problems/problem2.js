@@ -2,11 +2,11 @@
 const {arrayOfObjects} = require('../persons')
 
 
-function problem2(arrayOfObjects){
+function printHobbyAndAge(arrayOfObjects){
     for(let i=0;i<arrayOfObjects.length;i++){
         console.log(`Hobbies : ${arrayOfObjects[i].hobbies.join(', ')} Age : ${arrayOfObjects[i].age}`)
     }
 }
 
-// problem2(data);
-module.exports = {problem2};
+// printHobbyAndAge(data);
+module.exports = {printHobbyAndAge};

@@ -1,4 +1,4 @@
 const {arrayOfObjects} = require('../persons');
-const {problem6} = require('../problems/problem6');
+const {printFirstHobby} = require('../problems/problem6');
 
-problem6(arrayOfObjects);
+printFirstHobby(arrayOfObjects);

@@ -3,7 +3,7 @@
 const {arrayOfObjects}  = require('../persons.js')
 
 
-function problem1(arrayOfObjects ){
+function emailAddresses(arrayOfObjects ){
     //console.log(arrayOfObjects )
     let emails = [];
     for(let i=0;i<arrayOfObjects.length;i++){
@@ -14,7 +14,7 @@ function problem1(arrayOfObjects ){
     //console.log(emails);
     return emails;
 }
-//console.log(problem1(arrayOfObjects ))
-module.exports = { problem1 };
-// const ans = problem1(data);
+//console.log(emailAddresses(arrayOfObjects ))
+module.exports = { emailAddresses };
+// const ans = emailAddresses(data);
 // console.log(ans);
