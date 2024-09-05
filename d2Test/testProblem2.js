@@ -1,4 +1,4 @@
-const users = require('../users.js');
+const {users} = require('../users.js');
 //console.log(users)
 const {problem2} = require('../d2Problems/problem2.js');
 
