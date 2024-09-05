@@ -21,6 +21,6 @@ function problem1(users){
     return interestedInVideoGames;
     
 }
-problem1(users)
+//problem1(users)
 
 module.exports =  {problem1};

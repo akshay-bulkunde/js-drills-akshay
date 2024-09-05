@@ -5,16 +5,18 @@ const users   = require('../users.js')
 
 function problem2(users){
     //console.log(users)
-    const germanUsers = {};
+    const Germans = {};
 
     for (const user in users) {
-        if (users[user].nationality === "Germany") {
-            germanUsers[user] = users[user];
+        if(users[user].nationality === "Germany") {
+            Germans[user] = users[user];
+            //console.log(Germans)
         }
     }
-    console.log(germanUsers)
+    return Object.keys(Germans);
+    
 }
 
-// console.log(problem2(users))
+//console.log(problem2(users))
 
 module.exports = {problem2}
