@@ -2,7 +2,7 @@
 //Log the make and model into the console in the format of:
 //("Last car is a *car make goes here* *car model goes here*");
 
-function problem2(inventory){
+function getLastCar(inventory){
     
         
     console.log(`Last car is a ${inventory[inventory.length-1].car_make} ${inventory[inventory.length-1].car_model}`)
@@ -10,4 +10,4 @@ function problem2(inventory){
     
 }
 
-module.exports = {problem2}
+module.exports = {getLastCar}

@@ -2,7 +2,7 @@
 // order and log the results in the console as it was returned.
 const {inventory} = require('../cars.js');
 
-function problem3(inventory){
+function sortByCarModel(inventory){
    
     function compareByCarModel(a,b){
         if(a.car_model.toLowerCase() < b.car_model.toLowerCase()){
@@ -17,6 +17,6 @@ function problem3(inventory){
     return inventory;
 }
 
-module.exports = {problem3};
+module.exports =  {sortByCarModel};
 
-//console.log(problem3(inventory))
+//console.log sortByCarModel(inventory))
