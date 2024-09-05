@@ -3,7 +3,7 @@
 const users   = require('../users.js')
 //console.log(users )
 
-function problem2(users , country){
+function usersInGermany(users , country){
     //console.log(users)
     const Germans = {};
 
@@ -19,4 +19,4 @@ function problem2(users , country){
 
 //console.log(problem2(users))
 
-module.exports = {problem2}
+module.exports = {usersInGermany}

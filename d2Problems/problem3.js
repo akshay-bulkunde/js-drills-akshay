@@ -1,6 +1,6 @@
 // Find all users with masters Degree.
 
-function problem3(users){
+function usersWithMasterDegree(users){
     const usersWithMasterDegree = {};
     for(const user in users){
         if(users[user].qualification === "Masters"){
@@ -10,4 +10,4 @@ function problem3(users){
     return usersWithMasterDegree;
 }
 
-module.exports = {problem3};
+module.exports = {usersWithMasterDegree};

@@ -3,7 +3,7 @@
 const {users } = require('../users.js');
 //console.log(users)
 
-function problem1(users){
+function videoGameLovers(users){
     const interestedInVideoGames = {};
     videoGameRegex = /video games/i ;  
     for(const user in users){
@@ -21,6 +21,6 @@ function problem1(users){
     return interestedInVideoGames;
     
 }
-//problem1(users)
+//videoGameLovers(users)
 
-module.exports =  {problem1};
+module.exports =  {videoGameLovers};

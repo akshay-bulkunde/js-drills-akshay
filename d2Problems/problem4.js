@@ -2,7 +2,7 @@
 
 const {users} = require('../users.js')
 
-function problem4(users){
+function groupByLanguages(users){
     const groupByLanguage = {
         "python" : [],
         "golang" : [],
@@ -25,4 +25,4 @@ function problem4(users){
 
 }
 
-module.exports = {problem4};
+module.exports = {groupByLanguages};
