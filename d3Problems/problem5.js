@@ -13,7 +13,5 @@ const {inventory} = require('../cars.js')
     }
     //console.log(oldCars)
     
-
-   
 //getCarsBefore2000()
 module.exports = oldCars;
