@@ -8,15 +8,7 @@ function mapObject(obj, cb) {
     return newObject;
 }
 
-function callback(value){
-    if(typeof value === 'number'){
-        return value.toString();
-    }else if(typeof value === 'string'){
-        value = value.charAt(0).toUpperCase() + value.slice(1);
-        return value;
-    }
 
-}
 
 module.exports = {mapObject }
 // let result = mapObject(testObject , callback);
