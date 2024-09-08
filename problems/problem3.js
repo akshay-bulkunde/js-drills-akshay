@@ -1,6 +1,6 @@
 //    Create a function that extracts and displays the names of individuals who are students (`isStudent: true`) and live in Australia.
 
-const { arrayOfObjects } = require('../persons.js');
+//const { arrayOfObjects } = require('../persons.js');
 
 
 function studentsLiveInAustralia(arrayOfObjects){
