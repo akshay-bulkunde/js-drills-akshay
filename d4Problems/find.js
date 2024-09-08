@@ -5,7 +5,7 @@ function find(elements, cb) {
     for(let i=0;i<elements.length;i++){
         if(cb(elements[i])){
             result = elements[i];
-            //break;
+            break;
         }
         
     }
@@ -21,7 +21,7 @@ function callback1(element){
  }
 
 let result = find(items, callback);
-// console.log(result);
+console.log(result);
 
 let ans  = find(items , callback1);
 console.log(ans);
